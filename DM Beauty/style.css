@@ -1,0 +1,236 @@
+@font-face {
+  font-family: Bebas Kai;
+  src: url(./Fonts/BebasKai.woff);
+}
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+li {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+ul a {
+  color: var(--bs-secondary) !important;
+}
+@media screen and (max-width: 360px) {
+  .icons {
+    margin: 0px !important;
+  }
+}
+
+.hero-banner {
+  height: calc(100vh - 75px);
+  object-fit: cover;
+  min-height: 550px;
+}
+.image_left,
+.image_right {
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+.btn-hide {
+  margin-bottom: -55px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.parent_hover_div {
+  transition: all 0.3s ease;
+}
+
+.parent_hover_div:hover .btn-hide {
+  margin-bottom: 0px;
+  opacity: 1;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .image_left,
+  .image_right {
+    font-weight: bold;
+    padding-left: 1.5rem;
+  }
+
+  .second-section-row {
+    margin-top: 3rem;
+  }
+  .right_text {
+    height: 367px;
+  }
+  .H2 {
+    color: var(--bs-primary) !important;
+    font-family: var(--bs-font-family-heading) !important;
+    font-size: 40px;
+  }
+  .logo-footer {
+    padding-left: 0px !important;
+  }
+  .button-submit {
+    padding-bottom: 0.2rem;
+  }
+  p {
+    font-size: 11px;
+  }
+}
+.img-block {
+  height: 480px;
+}
+.second-paragraph {
+  text-align: left;
+}
+
+.H2 {
+  color: var(--bs-primary) !important;
+}
+.right_text {
+  background-color: var(--bs-color-third-200) !important;
+}
+.text-paragraph {
+  color: var(--bs-primary) !important;
+}
+
+#contact-us {
+  background-color: var(--bs-color-third-500) !important;
+  height: 100%;
+}
+.contact {
+  color: var(--bs-secondary) !important;
+}
+.first-text {
+  padding-top: 30px;
+  text-align: left;
+}
+.second-text {
+  width: 80%;
+  text-align: left;
+}
+.second-text,
+.third-text {
+  padding-top: 10px;
+  text-align: left;
+}
+.fourth-text {
+  text-align: left;
+}
+
+.contact-form {
+  width: 95%;
+}
+
+#footer {
+  background-color: var(--bs-primary) !important;
+  display: flex;
+  padding: 60px 30px 120px 30px;
+}
+.footer-paragraph {
+  text-align: left;
+}
+
+.footer-head {
+  color: var(--bs-color-third-400) !important;
+  font-size: 11px;
+  letter-spacing: 0.55px;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  color: var(--bs-secondary) !important;
+}
+#footer ul {
+  list-style-type: none;
+}
+
+.terms-conditions {
+  font-size: 9px;
+  color: var(--bs-secondary) !important;
+  line-height: 2.5;
+}
+.terms {
+  color: var(--bs-secondary) !important;
+  font-size: 9px;
+}
+
+.button-submit:hover {
+  color: var(--bs-third) !important;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 991px) {
+  .h4 {
+    text-align: center;
+  }
+
+  .social {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .text1 {
+    width: 100% !important;
+  }
+  .terms-conditions {
+    width: 100% !important;
+  }
+}
+
+.field {
+  background-color: var(--bs-secondary) !important;
+  border: 1px solid var(--bs-gray-400) !important;
+  font-size: 12px;
+  color: var(--bs-dark) !important;
+  font-family: var(--bs-font-family-spartan) !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+#inputState {
+  font-size: 12px;
+  font-family: var(--bs-font-family-spartan) !important;
+}
+.field:focus {
+  color: var(--bs-primary) !important;
+  background-color: var(--bs-secondary) !important;
+}
+.text1 {
+  width: 85%;
+  border: 1px solid var(--bs-color-primary-200) !important;
+}
+
+input {
+  width: 85%;
+  border: none;
+  background: none;
+  padding: 0 20px;
+  outline: none;
+  font-size: 15px;
+}
+
+.button-submit {
+  color: var(--bs-color-primary-200) !important;
+  bottom: 0.9rem;
+  right: 0px;
+  background-color: var(--bs-primary) !important;
+}
+
+input::placeholder {
+  color: var(--bs-dark) !important;
+}
+.email-control::placeholder {
+  color: var(--bs-secondary) !important;
+}
+select {
+  color: var(--bs-dark) !important;
+}
+textarea::placeholder {
+  color: var(--bs-dark) !important;
+}
